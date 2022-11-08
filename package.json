@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "name": "modelviewcontroller",
+  "description": "CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelyiu1/ModelViewController.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelyiu1/ModelViewController/issues"
+  },
+  "homepage": "https://github.com/michaelyiu1/ModelViewController#readme"
+}
