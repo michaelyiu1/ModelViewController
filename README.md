@@ -8,6 +8,6 @@ CMS-style blog site similar to a Wordpress site, where developers can publish th
 
 ## Links
 
-Deployed Link: 
+Heroku Deployed Link: https://techblog-1042.herokuapp.com/
 
 Github Repo: https://github.com/michaelyiu1/ModelViewController
